@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: CreativityKills\Sanity
+        psr4_prefix: CreativityKills\Sanity
+        src_path: src

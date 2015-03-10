@@ -1,0 +1,24 @@
+{
+  "name": "creativitykills/sanity",
+  "description": "Array Sanitizers Package.",
+  "keywords": ["laravel", "array", "sanitizers", "creativitykills"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Neo Ighodaro",
+      "email": "neo@creativitykills.co"
+    }
+  ],
+  "require": {
+      "illuminate/support": "~5.0",
+      "php": ">=5.4.0"
+  },
+  "require-dev": {
+      "phpspec/phpspec": "~2.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "CreativityKills\\Sanity\\": "src/"
+    }
+  }
+}
